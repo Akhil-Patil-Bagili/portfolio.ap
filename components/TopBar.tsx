@@ -1,6 +1,6 @@
 "use client";
 import Image from 'next/image';
-import logo from "../assets/cover.png";
+import logo from "../public/assets/cover.png";
 import { SocialMediaIcons } from "./SocialMediaIcons";
 import { useState, useEffect } from 'react';
 import { FiSun, FiMoon, FiMenu, FiX, FiArrowUpCircle } from 'react-icons/fi';

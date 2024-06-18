@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import { SocialMediaIcons } from './SocialMediaIcons';  // Make sure the path is correct
+import { SocialMediaIcons } from './SocialMediaIcons';  
 
 export const Footer: React.FC = () => {
   return (
@@ -23,5 +23,5 @@ export const Footer: React.FC = () => {
       </div>
     </footer>
   );
-  
+
 };

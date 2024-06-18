@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
-import myImage from '../assets/HeroImage.webp';
+import myImage from '../public/assets/HeroImage.webp';
 import { ButtonDark } from './ButtonDark';
 import { ButtonLight } from './ButtonLight';
 import { animateScroll as scroll } from 'react-scroll';
@@ -41,7 +41,7 @@ export const HeroSection = () => {
   return (
     <section className="flex flex-col md:flex-row items-center justify-center min-h-screen bg-gray-25 text-black font-poppins">
       <div className="flex justify-center md:flex-1 mt-10 mb-4 pb-16 md:mb-0 max-w-full">
-        <Image src={myImage} alt="Akhil Patil Bagili" layout="responsive" width={500} height={500} objectFit="cover" />
+        <Image src={myImage} alt="Akhil Patil Bagili" width={500} height={500} priority />
       </div>
       <div className="flex-1 text-center md:text-left p-2 overflow-hidden">
         <div className="mb-4 md:mr-8 max-w-full">
