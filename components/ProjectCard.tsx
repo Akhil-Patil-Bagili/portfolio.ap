@@ -1,5 +1,6 @@
 'use client';
 import React, { useState } from 'react';
+import Image from 'next/image';
 import { AiOutlineLink, AiOutlineLeft, AiOutlineRight, AiFillGithub } from 'react-icons/ai';
 
 interface Technology {
@@ -32,7 +33,13 @@ const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
 
       <div className="relative mt-6 mb-6">
         <div className="relative w-full h-52 overflow-hidden rounded-md">
-          <img src={project.images[currentImageIndex]} alt={`${project.title} screenshot`} className="absolute inset-0 w-full h-full object-cover" />
+        <Image 
+            src={project.images[currentImageIndex]} 
+            alt={`${project.title} screenshot`} 
+            layout="fill" 
+            objectFit="cover" 
+            className="absolute inset-0 w-full h-full object-cover" 
+          />
           <button onClick={previousImage} className="absolute left-0 top-1/2 transform -translate-y-1/2 text-white bg-black p-2 rounded-full">
             <AiOutlineLeft />
           </button>

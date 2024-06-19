@@ -47,11 +47,11 @@ export const HeroSection = () => {
       </div>
       <div className="flex-1 text-center md:text-left p-2 md:mb-20 overflow-hidden">
         <div className="mb-4 md:mr-8 max-w-full">
-          <h1 className="text-3xl md:text-5xl font-bold">Hi, I'm <span className="text-blue-800">Akhil Patil Bagili,</span></h1>
+        <h1 className="text-3xl md:text-5xl font-bold">Hi, I&apos;m <span className="text-blue-800">Akhil Patil Bagili,</span></h1>
           <p className="text-xl md:text-3xl font-semibold mt-4 animate-pulse pb-4 text-blue-800">
             {roles[currentRole]}
           </p>
-          <p className="text-lg md:text-xl mt-2 text-slate-600 pb-6 font-normal">Crafting the future with code, where each line is a step towards innovative web experiences. As a Full Stack Developer, I'm at the heart of this transformation.</p>
+          <p className="text-lg md:text-xl mt-2 text-slate-600 pb-6 font-normal">Crafting the future with code, where each line is a step towards innovative web experiences. As a Full Stack Developer, I&apos;m at the heart of this transformation.</p>
           <div className="flex flex-col md:flex-row justify-center md:justify-start space-x-0 md:space-x-4 mt-4 space-y-2 md:space-y-0">
             <ButtonLight onClick={handleScrollToContact} label="Get in Touch"/>
             <ButtonDark onClick={handleDownloadResume} label="Download Resume"/>

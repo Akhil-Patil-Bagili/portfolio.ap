@@ -13,7 +13,7 @@ export const AboutSection = () => {
           <h2 className="text-3xl md:text-4xl text-blue-800 font-bold mb-6">About Me</h2>
           <div className="flex items-center text-lg md:text-xl mb-4">
             <FaLaptopCode className="text-blue-800 mr-6 text-3xl md:text-4xl" />
-            <span>I'm Akhil, a Full Stack Developer from San Jose, combining cutting-edge technology with creative design to enhance software solutions.</span>
+            <span>I&apos;m Akhil, a Full Stack Developer from San Jose, combining cutting-edge technology with creative design to enhance software solutions.</span>
           </div>
           <div className="flex items-center text-lg md:text-xl mb-4">
             <FaBrain className="text-blue-800 mr-6 text-3xl md:text-4xl" />
@@ -25,7 +25,7 @@ export const AboutSection = () => {
           </div>
           <div className="flex items-center text-lg md:text-xl">
             <FaUsers className="text-blue-800 mr-6 text-3xl md:text-4xl" />
-            <span>Eager to collaborate? Let's combine our strengths and push the boundaries of what technology can achieve.</span>
+            <span>Eager to collaborate? Let&apos;s combine our strengths and push the boundaries of what technology can achieve.</span>
           </div>
         </div>
       </div>

@@ -1,6 +1,7 @@
 "use client";
 import Image from 'next/image';
 import logo from "../public/assets/logo-transparent-png.png";
+import Link from 'next/link';
 import { SocialMediaIcons } from "./SocialMediaIcons";
 import { useState, useEffect } from 'react';
 import { FiSun, FiMoon, FiMenu, FiX, FiArrowUpCircle } from 'react-icons/fi';
@@ -53,9 +54,9 @@ export const TopBar = () => {
         <>
             <header className={`${theme === 'light' ? 'bg-gray-50' : 'bg-gray-800'} px-4 py-3 sticky top-0 z-10 w-full shadow-sm sm:px-8`}>
                 <nav className="container mx-auto flex justify-between items-center">
-                    <a href="/" className="flex items-center hover:scale-105 transition-transform duration-300">
+                    <Link href="/" className="flex items-center hover:scale-105 transition-transform duration-300">
                         <Image src={logo} alt="Your Logo" width={250} height={250} />
-                    </a>
+                    </Link>
                     <button className={`md:hidden text-3xl p-2 ${menuOpen ? "fixed right-5 top-5 z-40" : ""}`} onClick={toggleMenu}>
                         {menuOpen ? <FiX /> : <FiMenu />}
                     </button>

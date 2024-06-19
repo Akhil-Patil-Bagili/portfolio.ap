@@ -11,7 +11,7 @@ const Terms: React.FC = () => {
         <ul className="list-disc pl-8 mb-4">
           <li>Modify or copy the materials;</li>
           <li>Use the materials for any commercial purpose, or for any public display (commercial or non-commercial);</li>
-          <li>Attempt to decompile or reverse engineer any software contained on Apatil's website;</li>
+          <li>Attempt to decompile or reverse engineer any software contained on Apatil&apos;s website;</li>
           <li>Remove any copyright or other proprietary notations from the materials;</li>
           <li>Transfer the materials to another person or &quot;mirror&quot; the materials on any other server.</li>
         </ul>
