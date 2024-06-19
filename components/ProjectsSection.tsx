@@ -1,8 +1,5 @@
 'use client';
 import React, { useState } from 'react';
-import { AiOutlineLink, AiOutlineLeft, AiOutlineRight, AiFillGithub } from 'react-icons/ai';
-import {SiFlask} from 'react-icons/si';
-import { DiReact, DiNodejsSmall } from 'react-icons/di';
 import ProjectCard from './ProjectCard';
 
 interface Technology {
@@ -32,6 +29,7 @@ const initialProjects: Project[] = [
       ],
       technologies: [
         { name: "React" },  
+        { name: "TailwindCSS" }, 
         { name: "Flask" },
         { name: "PostgreSQL" },
         { name: "Docker" },
@@ -57,7 +55,8 @@ const initialProjects: Project[] = [
 
       ],
       technologies: [
-        { name: "React" },  
+        { name: "React" },
+        { name: "CSS" },  
         { name: "Django" },
         { name: "PostgreSQL" },
         { name: "OpenAI" },
@@ -81,9 +80,12 @@ const initialProjects: Project[] = [
         "/assets/gitinsight/7.png",
       ],
       technologies: [
-        { name: "React" },  
+        { name: "React" }, 
+        { name: "TailwindCSS" }, 
         { name: "Flask" },
         { name: "AstraDB" },
+        { name: "GenAI" },
+        { name: "RAG modeling" },
         { name: "GPT-4" },
         { name: "AWS" },
       ],
@@ -100,7 +102,8 @@ const initialProjects: Project[] = [
         "/assets/paytm/3.png",
       ],
       technologies: [
-        { name: "React" },  
+        { name: "React" }, 
+        { name: "TailwindCSS" }, 
         { name: "Node" },
         { name: "MongoDB" },
       ],
