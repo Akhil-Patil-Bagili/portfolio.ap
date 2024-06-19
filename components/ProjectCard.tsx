@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 import { AiOutlineLink, AiOutlineLeft, AiOutlineRight, AiFillGithub } from 'react-icons/ai';
 
 interface Technology {
-  icon: JSX.Element;
   name: string;
 }
 
@@ -28,7 +27,7 @@ const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
   };
 
   return (
-    <div className="bg-white p-6 shadow-lg rounded-lg relative max-w-lg mx-auto">
+    <div className="bg-white p-6 shadow-lg rounded-lg relative max-w-lg mx-auto flex flex-col h-full">
       <h3 className="text-xl font-bold">{project.title}</h3>
 
       <div className="relative mt-6 mb-6">
@@ -49,13 +48,12 @@ const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
         <ul className="flex flex-wrap">
           {project.technologies.map((tech, i) => (
             <li key={i} className="flex items-center m-2">
-              {tech.icon}
               <span className="ml-2 text-sm">{tech.name}</span>
             </li>
           ))}
         </ul>
       </div>
-      <div className="flex justify-between items-center mt-2">
+      <div className="mt-auto flex justify-between items-center pt-4">
         {project.url && (
           <a href={project.url} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700 flex items-center">
             Visit <AiOutlineLink className="ml-2" />

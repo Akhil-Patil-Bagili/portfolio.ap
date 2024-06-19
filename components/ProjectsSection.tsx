@@ -1,11 +1,11 @@
 'use client';
 import React, { useState } from 'react';
 import { AiOutlineLink, AiOutlineLeft, AiOutlineRight, AiFillGithub } from 'react-icons/ai';
+import {SiFlask} from 'react-icons/si';
 import { DiReact, DiNodejsSmall } from 'react-icons/di';
 import ProjectCard from './ProjectCard';
 
 interface Technology {
-  icon: JSX.Element;
   name: string;
 }
 
@@ -21,8 +21,8 @@ interface Project {
 const initialProjects: Project[] = [
   {
     title: "Magic Square Puzzle Solver",
-      description: "Magic Square Puzzle Solver is an engaging web application that challenges users to solve magic square puzzles.",
-      url: "http://54.242.48.248/",
+      description: "Magic Square Puzzle Solver is a fun and interactive web application that challenges users to solve ancient mathematical puzzles, offering various difficulty levels and real-time hints, built with Flask and React.",
+      url: "https://github.com/Akhil-Patil-Bagili/magic-square-puzzle-solver",
       githubUrl: "https://github.com/Akhil-Patil-Bagili/magic-square-puzzle-solver",
       images: [
         "/assets/msps/1.png", 
@@ -31,8 +31,78 @@ const initialProjects: Project[] = [
         "/assets/msps/6.png"
       ],
       technologies: [
-        { icon: <DiReact />, name: "React" },  
-        { icon: <DiNodejsSmall />, name: "Node.js" }  
+        { name: "React" },  
+        { name: "Flask" },
+        { name: "PostgreSQL" },
+        { name: "Docker" },
+        { name: "AWS" },
+      ],
+  },
+  {
+    title: "Expense Tracker",
+      description: "Expense Tracker App is a user-friendly tool for managing your finances, built with Django and React. It lets you log expenses and incomes, view spending habits with detailed analytics, and includes an AI chatbot to help with user queries.",
+      url: "https://expense-tracker.apatil.net/",
+      githubUrl: "https://github.com/Akhil-Patil-Bagili/expense_tracker.ap",
+      images: [
+        "/assets/expense_tracker/1.png", 
+        "/assets/expense_tracker/2.png",
+        "/assets/expense_tracker/3.png",
+        "/assets/expense_tracker/4.png",
+        "/assets/expense_tracker/5.png",
+        "/assets/expense_tracker/6.png",
+        "/assets/expense_tracker/7.png",
+        "/assets/expense_tracker/8.png",
+        "/assets/expense_tracker/9.png",
+        "/assets/expense_tracker/10.png",
+
+      ],
+      technologies: [
+        { name: "React" },  
+        { name: "Django" },
+        { name: "PostgreSQL" },
+        { name: "OpenAI" },
+        { name: "Netlify" },
+        { name: "Heroku" },
+        { name: "Railway" },
+      ],
+  },
+  {
+    title: "GitInsight",
+      description: "GitInsight is a powerful tool that offers deep insights into Git repositories, utilizing OpenAI's GPT-4 to simplify querying commits and understanding project trends for developers and project managers.",
+      url: "https://github.com/Akhil-Patil-Bagili/gitinsight.ap",
+      githubUrl: "https://github.com/Akhil-Patil-Bagili/gitinsight.ap",
+      images: [
+        "/assets/gitinsight/1.png", 
+        "/assets/gitinsight/2.png",
+        "/assets/gitinsight/3.png",
+        "/assets/gitinsight/4.png",
+        "/assets/gitinsight/5.png",
+        "/assets/gitinsight/6.png",
+        "/assets/gitinsight/7.png",
+      ],
+      technologies: [
+        { name: "React" },  
+        { name: "Flask" },
+        { name: "AstraDB" },
+        { name: "GPT-4" },
+        { name: "AWS" },
+      ],
+  },
+  
+  {
+    title: "PayTM",
+      description: "PayTM App is a user-friendly platform that allows users to search for existing users and send money to them instantly. Built with React and Node, the app ensures seamless money transfers with real-time balance updates.",
+      url: "https://github.com/Akhil-Patil-Bagili/paytm.ap",
+      githubUrl: "https://github.com/Akhil-Patil-Bagili/paytm.ap",
+      images: [
+        "/assets/paytm/1.png", 
+        "/assets/paytm/2.png",
+        "/assets/paytm/3.png",
+      ],
+      technologies: [
+        { name: "React" },  
+        { name: "Node" },
+        { name: "MongoDB" },
       ],
   },
 ];

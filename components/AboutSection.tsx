@@ -4,7 +4,7 @@ import aboutMeImage from '../public/assets/HeroImage.webp'; // Ensure this is th
 
 export const AboutSection = () => {
   return (
-    <section id="about-me" className="bg-gray-50 text-black font-poppins pt-10 pb-14 px-4 md:px-16 text-justify">
+    <section id="about-me" className="bg-gray-25 text-black font-poppins pt-10 pb-14 px-4 md:px-16 text-justify">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center">
         <div className="md:w-1/2 md:pr-8 mb-8 md:mb-0">
           <Image src={aboutMeImage} alt="Akhil Patil Bagili" width={500} height={500} priority />

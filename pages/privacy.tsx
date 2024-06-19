@@ -5,7 +5,7 @@ const Privacy: React.FC = () => {
     <div className="min-h-screen bg-gray-50 text-black p-8">
       <div className="max-w-4xl mx-auto shadow-lg p-10 bg-white rounded-lg">
         <h1 className="text-4xl font-bold mb-6 border-b pb-4">Privacy Policy</h1>
-        <p className="mb-4">Your privacy is important to us. It is Apatil's policy to respect your privacy regarding any information we may collect from you across our website, <a href="http://apatil.net" className="text-blue-600 hover:underline">apatil.net</a>, and other sites we own and operate.</p>
+        <p className="mb-4">Your privacy is important to us. It is APatil&apos;s policy to respect your privacy regarding any information we may collect from you across our website, <a href="http://apatil.net" className="text-blue-600 hover:underline">apatil.net</a>, and other sites we own and operate.</p>
         <p className="mb-4">We only ask for personal information when we truly need it to provide a service to you. We collect it by fair and lawful means, with your knowledge and consent. We also let you know why we’re collecting it and how it will be used.</p>
         <p className="mb-4">We only retain collected information for as long as necessary to provide you with your requested service. What data we store, we’ll protect within commercially acceptable means to prevent loss and theft, as well as unauthorized access, disclosure, copying, use or modification.</p>
         <p className="mb-4">We don’t share any personally identifying information publicly or with third-parties, except when required to by law.</p>

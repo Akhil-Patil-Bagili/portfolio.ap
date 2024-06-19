@@ -7,7 +7,7 @@ export const Footer: React.FC = () => {
     <footer className="bg-gray-800 text-white py-6">
       <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
         <div className="mb-6 md:mb-0">
-          <p className="text-center md:text-left font-semibold">© {new Date().getFullYear()} Apatil. All Rights Reserved.</p>
+          <p className="text-center md:text-left font-semibold">© {new Date().getFullYear()} APatil. All Rights Reserved.</p>
         </div>
         <div className="flex justify-center space-x-4 md:mt-2">
           {SocialMediaIcons.map(icon => (
